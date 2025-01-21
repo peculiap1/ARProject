@@ -1,0 +1,11 @@
+Model Information:
+* title:	table_lamp_olivegreen
+* source:	https://sketchfab.com/3d-models/table-lamp-olivegreen-3ea0dd250740485298f9eff2ba4e97cf
+* author:	clon6767 (https://sketchfab.com/clon6767)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "table_lamp_olivegreen" (https://sketchfab.com/3d-models/table-lamp-olivegreen-3ea0dd250740485298f9eff2ba4e97cf) by clon6767 (https://sketchfab.com/clon6767) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
