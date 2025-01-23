@@ -3,28 +3,28 @@ using UnityEngine.XR.ARFoundation;
 
 public class PlaneDetectionUI : MonoBehaviour
 {
-    public GameObject scanningUI; // Het UI-paneel dat wordt weergegeven tijdens scanning
-    private ARPlaneManager planeManager;
+    public GameObject scanningUI; // The UI panel displayed during scanning
+    private ARPlaneManager planeManager; // Manager for AR plane detection
 
     void Start()
     {
-        planeManager = FindObjectOfType<ARPlaneManager>();
+        planeManager = FindObjectOfType<ARPlaneManager>(); // Initialize the plane manager
 
-        // Zorg ervoor dat de UI zichtbaar is bij het starten
+        // Ensure the scanning UI is visible at the start
         scanningUI.SetActive(true);
     }
 
     void Update()
     {
-        // Controleer of er ten minste één AR-plane is gedetecteerd
+        // Check if at least one AR-plane has been detected
         if (planeManager.trackables.count > 0)
         {
-            // Verberg de scanning UI
+            // Hide the scanning UI when a plane is detected
             scanningUI.SetActive(false);
         }
         else
         {
-            // Toon de scanning UI zolang er geen planes zijn gedetecteerd
+            // Show the scanning UI as long as no planes are detected
             scanningUI.SetActive(true);
         }
     }
